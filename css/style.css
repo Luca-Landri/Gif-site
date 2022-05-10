@@ -1,0 +1,69 @@
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.submitButton {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.result {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.inputSearch {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.res-img {
+    width: 70px;
+    height: 70px;
+}
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 300px;
+}
