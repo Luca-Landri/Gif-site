@@ -22,11 +22,13 @@ button.addEventListener('click', function (e) {
 
             gifs.forEach(e => {
                 let name = e.title;
+                let date = e.import_datetime;
+                date = date.substring(0, date.indexOf(' '));
                 name = name.substring(0, name.indexOf('by'));
                 result.innerHTML += `<div style="background-image: url(${e.images.downsized.url})" class="bg-img">
                                         <h2>${name}</h2>
                                         <h4>${e.username}</h4>
-                                        <h5>${e.import_datetime}</h5>
+                                        <h5>${date}</h5>
                                     </div>`;
                 
             });
