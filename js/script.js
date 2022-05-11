@@ -34,8 +34,8 @@
                                                     <h5>${date}</h5>
                                                 </div>
                                                 <div class="link-copy">
-                                                    <img class="image-link" src="./assets/link.png" alt="${e.images.downsized.url}">
-                                                    <img class="code-link" src="./assets/code.png">
+                                                    <img class="image-link" src="./assets/url.svg" alt="${e.images.downsized.url}">
+                                                    <img class="code-link" src="./assets/code.svg">
                                                 </div>
                                             </div>
                                         </div>`;
