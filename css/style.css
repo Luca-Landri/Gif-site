@@ -126,3 +126,9 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.link-copy {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

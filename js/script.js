@@ -35,6 +35,7 @@
                                                 </div>
                                                 <div class="link-copy">
                                                     <img class="image-link" src="./assets/link.png" alt="${e.images.downsized.url}">
+                                                    <img class="image-link" src="./assets/code.png">
                                                 </div>
                                             </div>
                                         </div>`;
