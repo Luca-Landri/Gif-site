@@ -50,19 +50,16 @@
 });
 
 //addevent listener for copy the link by the image-link class
-copyToClipboard = (e) => {
-    let text = e;
-    navigator.clipboard.writeText(e);
-    alert("Copied the text: " + e);
-}
-
-
 
 document.addEventListener('click', function (e) {
     if (e.target.classList.contains('image-link')) {
         let link = e.target.alt;
         console.log(link);
-        copyToClipboard(link);
+        navigator.clipboard.writeText(link).then(() => {
+            // Alert the user that the action took place.
+            // Nobody likes hidden stuff being done under the hood!
+            alert("Copied to clipboard");
+        });
     }
 }
 );
