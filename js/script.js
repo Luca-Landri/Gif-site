@@ -35,7 +35,7 @@
                                                 </div>
                                                 <div class="link-copy">
                                                     <img class="image-link" src="./assets/link.png" alt="${e.images.downsized.url}">
-                                                    <img class="image-link" src="./assets/code.png">
+                                                    <img class="code-link" src="./assets/code.png">
                                                 </div>
                                             </div>
                                         </div>`;
@@ -45,9 +45,24 @@
  	        console.warn('Something went wrong.', err);
          });
      } else {
-         alert('Please enter a search term.');
+        alert('Please enter a search term.');
      }
+});
+
+//addevent listener for copy the link by the image-link class
+copyToClipboard = (e) => {
+    let text = e;
+    navigator.clipboard.writeText(e);
+    alert("Copied the text: " + e);
+}
 
 
 
- });
+document.addEventListener('click', function (e) {
+    if (e.target.classList.contains('image-link')) {
+        let link = e.target.alt;
+        console.log(link);
+        copyToClipboard(link);
+    }
+}
+);

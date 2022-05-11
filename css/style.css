@@ -119,6 +119,12 @@
     margin-left: 10px;
 }
 
+.code-link {
+    width: 40px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
 .img-row {
     display: flex;
     flex-wrap: wrap;
