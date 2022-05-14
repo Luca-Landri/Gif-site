@@ -62,7 +62,7 @@
 }
 
 .inputSearch {
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 10px;
     border: 1px solid #000;
 }
@@ -97,7 +97,7 @@
 }
 
 .bg-img:hover {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     box-shadow: 5px 15px #000;
     transition: all 0.3s linear;
 }

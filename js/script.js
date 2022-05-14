@@ -35,10 +35,11 @@
                                                 </div>
                                                 <div class="link-copy">
                                                     <img class="image-link" src="./assets/url.svg" alt="${e.images.downsized.url}">
-                                                    <img class="code-link" src="./assets/code.svg">
+                                                    <img class="code-link" src="./assets/code.svg" alt=${e.embed_url}>
                                                 </div>
                                             </div>
                                         </div>`;
+                console.log(e.embed_url);
                 
              });
          }).catch(function (err) {
@@ -56,9 +57,13 @@ document.addEventListener('click', function (e) {
         let link = e.target.alt;
         console.log(link);
         navigator.clipboard.writeText(link).then(() => {
-            // Alert the user that the action took place.
-            // Nobody likes hidden stuff being done under the hood!
             alert("Copied to clipboard");
+        });
+    } else if(e.target.classList.contains('code-link')) {
+        let link = e.target.alt;
+        console.log(link);
+        navigator.clipboard.writeText(link).then(() => {
+            alert("Embed copied to clipboard");
         });
     }
 }
