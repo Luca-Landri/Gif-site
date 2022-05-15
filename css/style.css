@@ -32,7 +32,7 @@
 }
 
 .submitButton {
-    width: 70%;
+    width: 25%;
     height: 60px;
     border: none;
     border-radius: 10px;
@@ -57,7 +57,7 @@
 
 .inputSearch {
     border-radius: 10px;
-    width: 70%;
+    width: 25%;
     height: 60px;
     border: 1px solid #000;
     text-align: center;
@@ -86,6 +86,14 @@
     .bg-img {
         width: 73%;
         height: 300px;
+    }
+
+    .submitButton {
+        width: 70%;
+    }
+
+    .inputSearch {
+        width: 70%;
     }
 }
 
