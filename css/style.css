@@ -42,6 +42,7 @@
     font-weight: bold;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 40px;
 }
 
 .result {
