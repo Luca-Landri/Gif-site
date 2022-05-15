@@ -42,10 +42,10 @@
     font-weight: bold;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 40px;
 }
 
 .result {
+    margin-top: 55px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
