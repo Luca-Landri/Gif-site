@@ -14,4 +14,6 @@ This is an only front-end app
 ## COPY AND PASTE
 The site allows you to copy the embed or the link of the GIF
 
+> to use this project it is not necessary to install any dependencies
+
 
