@@ -4,4 +4,6 @@
 <img src="https://media0.giphy.com/media/TcdpZwYDPlWXC/giphy.gif?cid=6b22a9e7k0q7sxxagz1r2enwh7h4kmuswt7hfh0fcsyne1op&rid=giphy.gif&ct=g"/>
 
 ## how it's made of
-This site is made only with HTML and vanilla JS
+- HTML
+- JS
+- GIPHY API
